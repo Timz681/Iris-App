@@ -95,13 +95,13 @@ pred = model.predict(input_values)
 
 if pred == 0:
     st.success('The Flower is an Iris-setosa')
-    setosa = Image.open('images\Irissetosa1.jpg.jpg')
+    setosa = Image.open('Irissetosa1.jpg.jpg')
     st.image(setosa, caption = 'Iris-setosa', width = 400)
 elif pred == 1:
     st.success('The Flower is an Iris-versicolor ')
-    versicolor = Image.open('images\irisversicolor.jpg.jpg')
+    versicolor = Image.open('irisversicolor.jpg.jpg')
     st.image(versicolor, caption = 'Iris-versicolor', width = 400)
 else:
     st.success('The Flower is an Iris-virginica ')
-    virginica = Image.open('images\Iris-virginica.jpg.jpg')
+    virginica = Image.open('Iris-virginica.jpg.jpg')
     st.image(virginica, caption = 'Iris-virginica', width = 400 )
