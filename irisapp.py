@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 
 
 # import some data to play with
-data = pd.read_csv(r"C:\Users\TIMz681\Desktop\DS Projects\projects\Streamlit Dev\IRIS APP\iris.data.csv", header = None)
+data = pd.read_csv('iris.data.csv', header = None)
 
 data.rename(columns = {0: 'sepal length (cm)', 1: 'sepal width (cm)', 2: 'petal length (cm)', 3:  'petal width (cm)', 4: 'names'}, inplace = True)
 
